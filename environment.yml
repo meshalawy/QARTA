@@ -1,0 +1,20 @@
+name: qarta
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - pandas
+  - ipykernel
+  - ipywidgets
+  - tqdm
+  - matplotlib
+  - requests
+  - rtree
+  - geopandas
+  - scikit-learn
+  - geographiclib==1.50
+  - geopy
+  - h3-py
+  - pip
+  - pip:
+    - docker-compose
